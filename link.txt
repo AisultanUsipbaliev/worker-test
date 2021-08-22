@@ -1,0 +1,7 @@
+https://habr.com/ru/company/otus/blog/563920/
+https://artillery.io/docs/guides/guides/test-script-reference.html
+https://www.section.io/engineering-education/nodejs-worker-thread/
+
+npm install -g artillery@latest
+npm install -g nodemon
+

@@ -1,0 +1,12 @@
+config:
+  target: "http://localhost:5000"
+  phases:
+    - duration: 10
+#      arrivalRate: 100
+      arrivalCount: 1000
+
+scenarios:
+  - name: WorkerPool --------------------------------------------------------------
+    flow:
+      - get:
+          url: "/bcrypt-worker-pool"

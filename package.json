@@ -1,0 +1,27 @@
+{
+  "name": "workerpool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon app.js"
+  },
+  "dependencies": {
+    "axios": "0.19.2",
+    "bcrypt": "5.0.0",
+    "bcryptjs": "2.4.3",
+    "dotenv": "8.2.0",
+    "express": "4.17.1",
+    "helmet": "4.1.0",
+    "mongoose": "5.9.29",
+    "morgan": "1.10.0",
+    "piscina": "1.6.3",
+    "workerpool": "6.0.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "artillery": "^1.7.7",
+    "nodemon": "^2.0.12"
+  }
+}
